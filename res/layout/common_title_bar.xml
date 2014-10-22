@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="horizontal"
+	android:background="@drawable/title_bar_bg"
+    >
+	    <Button
+	        android:id="@+id/title_btn_left"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/selector_btn_return"
+	        android:layout_centerVertical="true"
+	        android:clickable="true"
+	        />
+	    <TextView
+	        android:id="@+id/title_txt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/v2_title_txt"
+	        android:textSize="@dimen/title_txt_size"
+	        android:text="电话精灵"
+	        android:layout_centerInParent="true" 
+	        android:singleLine="true"
+	        />
+	    <com.fgc.autocall.ui.component.ButtonTwoState
+	        android:id="@+id/title_btn_right"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:gravity="center"
+	        android:layout_marginRight="@dimen/title_padding"
+	        android:background="@drawable/selector_btn_start"
+	        />
+
+</RelativeLayout>

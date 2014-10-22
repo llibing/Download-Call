@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">电话精灵</string>
+    <string name="double_click_quit_app">再按一次退出应用！</string>
+    
+    <string name="left_menu_setting">设置</string>
+    <string name="left_menu_export">导出本机联系人</string>
+    <string name="left_menu_simcard">SIM卡信息</string>
+    <string name="left_menu_about">关于我们</string>
+    
+    
+    <string name="warning_ok">确定</string>
+    <string name="warning_detecting">检测中...</string>
+    <string name="export_notice">导出到sdcard根目录，命名为  - 我的联系人.txt</string>
+    <string name="exporting_notice">导出中 ...</string>
+    <string name="exported_notice">导出完成  !</string>
+
+</resources>

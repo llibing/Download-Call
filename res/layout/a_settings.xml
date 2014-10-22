@@ -1,0 +1,397 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/v2_normal_bg"
+     >
+     
+	<include
+		layout="@layout/common_title_bar"
+	/>
+	
+<!-- 	    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/v2_sub_column_text"
+        android:text="设置"
+        android:textSize="@dimen/txt_size_px_24"
+        /> -->
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/area_margin_left"
+    android:layout_marginRight="@dimen/area_margin_left"
+    android:layout_marginTop="10dp"
+    android:paddingTop="@dimen/area_padding_top"
+    android:paddingBottom="@dimen/area_padding_top"
+    android:background="@drawable/area_round_bg"
+    >
+      <TextView 
+        android:layout_width="match_parent"
+      	android:layout_height="wrap_content"
+      	android:textColor="@color/normal_text_color"
+      	android:paddingLeft="@dimen/common_title_padding_left"
+      	android:text="拨打时间间隔(秒)"
+      />
+      <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="8dp"
+    	android:paddingLeft="@dimen/common_title_padding_left"
+    	android:orientation="horizontal"
+          >
+        <EditText
+            android:id="@+id/input_call_internal"
+	        android:layout_width="0dp"
+	        android:layout_height="28dp"
+	        android:layout_weight="1"
+	        android:background="@drawable/input_box_bg"
+	        android:textColor="@color/input_text"
+	        android:textSize="@dimen/txt_size_px_20"
+	        android:textColorHint="#8d8d90"
+	        android:paddingTop="0dp"
+	        android:paddingBottom="0dp"
+	        android:gravity="center_vertical"
+	            />
+        <com.fgc.autocall.ui.component.ButtonTwoState
+	        android:id="@+id/btn_call_internal"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_gravity="right|center_vertical"
+	        android:layout_marginRight="@dimen/title_padding"
+	        android:layout_marginLeft="@dimen/title_padding"
+	        android:background="@drawable/btn_edit"
+	        />   
+          
+      </LinearLayout>
+    
+    
+</LinearLayout>
+
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/area_margin_left"
+    android:layout_marginRight="@dimen/area_margin_left"
+    android:layout_marginTop="10dp"
+    android:paddingTop="@dimen/area_padding_top"
+    android:paddingBottom="@dimen/area_padding_top"
+    android:background="@drawable/area_round_bg"
+    >
+      <TextView 
+        android:layout_width="match_parent"
+      	android:layout_height="wrap_content"
+      	android:textColor="@color/normal_text_color"
+      	android:paddingLeft="@dimen/common_title_padding_left"
+      	android:text="开始拨打时间(例  13:20)"
+      />
+      <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="8dp"
+    	android:paddingLeft="@dimen/common_title_padding_left"
+    	android:orientation="horizontal"
+          >
+        <EditText
+            android:id="@+id/input_start_time"
+	        android:layout_width="0dp"
+	        android:layout_height="28dp"
+	        android:layout_weight="1"
+	        android:background="@drawable/input_box_bg"
+	        android:textColor="@color/input_text"
+	        android:textSize="@dimen/txt_size_px_20"
+	        android:textColorHint="#8d8d90"
+	        android:paddingTop="0dp"
+	        android:paddingBottom="0dp"
+	        android:gravity="center_vertical"
+	            />
+        <com.fgc.autocall.ui.component.ButtonTwoState
+	        android:id="@+id/btn_start_time"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_gravity="right|center_vertical"
+	        android:layout_marginRight="@dimen/title_padding"
+	        android:layout_marginLeft="@dimen/title_padding"
+	        android:background="@drawable/btn_edit"
+	        />   
+          
+      </LinearLayout>
+    
+    
+</LinearLayout>
+
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/area_margin_left"
+    android:layout_marginRight="@dimen/area_margin_left"
+    android:layout_marginTop="10dp"
+    android:paddingTop="@dimen/area_padding_top"
+    android:paddingBottom="@dimen/area_padding_top"
+    android:background="@drawable/area_round_bg"
+    >
+      <TextView 
+        android:layout_width="match_parent"
+      	android:layout_height="wrap_content"
+      	android:textColor="@color/normal_text_color"
+      	android:paddingLeft="@dimen/common_title_padding_left"
+      	android:text="SIM卡套餐(分钟)"
+      />
+      <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="8dp"
+    	android:paddingLeft="@dimen/common_title_padding_left"
+    	android:orientation="horizontal"
+          >
+        <EditText
+            android:id="@+id/input_sim_time_length"
+	        android:layout_width="0dp"
+	        android:layout_height="28dp"
+	        android:layout_weight="1"
+	        android:background="@drawable/input_box_bg"
+	        android:textColor="@color/input_text"
+	        android:textSize="@dimen/txt_size_px_20"
+	        android:textColorHint="#8d8d90"
+	        android:paddingTop="0dp"
+	        android:paddingBottom="0dp"
+	        android:gravity="center_vertical"
+	            />
+        <com.fgc.autocall.ui.component.ButtonTwoState
+	        android:id="@+id/btn_sim_time_length"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_gravity="right|center_vertical"
+	        android:layout_marginRight="@dimen/title_padding"
+	        android:layout_marginLeft="@dimen/title_padding"
+	        android:background="@drawable/btn_edit"
+	        />   
+          
+      </LinearLayout>
+    
+    
+</LinearLayout>
+
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/area_margin_left"
+    android:layout_marginRight="@dimen/area_margin_left"
+    android:layout_marginTop="10dp"
+    android:paddingTop="@dimen/area_padding_top"
+    android:paddingBottom="@dimen/area_padding_top"
+    android:background="@drawable/area_round_bg"
+    >
+      <TextView 
+        android:layout_width="match_parent"
+      	android:layout_height="wrap_content"
+      	android:paddingLeft="@dimen/common_title_padding_left"
+      	android:textColor="@color/normal_text_color"
+      	android:text="余额不足接收短信号码"
+      />
+      <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="8dp"
+    	android:paddingLeft="@dimen/common_title_padding_left"
+    	android:orientation="horizontal"
+          >
+        <EditText
+            android:id="@+id/input_warnning_number"
+	        android:layout_width="0dp"
+	        android:layout_height="28dp"
+	        android:layout_weight="1"
+	        android:background="@drawable/input_box_bg"
+	        android:textColor="@color/input_text"
+	        android:textSize="@dimen/txt_size_px_20"
+	        android:textColorHint="#8d8d90"
+	        android:paddingTop="0dp"
+	        android:paddingBottom="0dp"
+	        android:gravity="center_vertical"
+	            />
+        <com.fgc.autocall.ui.component.ButtonTwoState
+	        android:id="@+id/btn_warnning_number"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_gravity="right|center_vertical"
+	        android:layout_marginRight="@dimen/title_padding"
+	        android:layout_marginLeft="@dimen/title_padding"
+	        android:background="@drawable/btn_edit"
+	        />   
+          
+      </LinearLayout>
+    
+    
+</LinearLayout>
+
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/area_margin_left"
+    android:layout_marginRight="@dimen/area_margin_left"
+    android:layout_marginTop="10dp"
+    android:paddingTop="@dimen/area_padding_top"
+    android:paddingBottom="@dimen/area_padding_top"
+    android:background="@drawable/area_round_bg"
+    >
+      <TextView 
+        android:layout_width="match_parent"
+      	android:layout_height="wrap_content"
+      	android:paddingLeft="@dimen/common_title_padding_left"
+      	android:textColor="@color/normal_text_color"
+      	android:text="功能选择"
+      />
+      <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="6dp"
+    	android:paddingBottom="6dp"
+    	android:paddingLeft="@dimen/common_title_padding_left"
+    	android:orientation="horizontal"
+          >
+        <com.fgc.autocall.ui.component.ImageViewTwoState
+			android:id="@+id/img_send_message"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:background="@drawable/btn_checked_no"
+	        />  
+	    
+        <TextView 
+            android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginLeft="8dp"
+	        android:text="发短信"
+            />
+        
+        <com.fgc.autocall.ui.component.ImageViewTwoState
+			android:id="@+id/img_call"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginLeft="24dp"
+	        android:background="@drawable/btn_checked_no"
+	        />   
+          
+        <TextView 
+            android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginLeft="8dp"
+	        android:text="打电话"
+            />
+        
+        
+        <com.fgc.autocall.ui.component.ImageViewTwoState
+			android:id="@+id/img_download"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginLeft="24dp"
+	        android:background="@drawable/btn_checked_no"
+	        />   
+          
+        <TextView 
+            android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginLeft="8dp"
+	        android:text="下载"
+            />
+      </LinearLayout>
+    
+</LinearLayout> 
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/area_margin_left"
+    android:layout_marginRight="@dimen/area_margin_left"
+    android:layout_marginTop="10dp"
+    android:paddingTop="@dimen/area_padding_top"
+    android:paddingBottom="@dimen/area_padding_top"
+    android:background="@drawable/area_round_bg"
+    >
+      <TextView 
+        android:layout_width="match_parent"
+      	android:layout_height="wrap_content"
+      	android:paddingLeft="@dimen/common_title_padding_left"
+      	android:textColor="@color/normal_text_color"
+      	android:text="设置"
+      />
+      <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="6dp"
+    	android:paddingBottom="6dp"
+    	android:paddingLeft="@dimen/common_title_padding_left"
+    	android:orientation="horizontal"
+          >
+	    
+
+        <TextView 
+            android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginLeft="8dp"
+	        android:text="电话"
+            />
+       <com.fgc.autocall.ui.component.ButtonTwoState
+	        android:id="@+id/btn_phone"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_gravity="right|center_vertical"
+	        android:layout_marginRight="@dimen/title_padding"
+	        android:layout_marginLeft="@dimen/title_padding"
+	        android:background="@drawable/btn_edit"
+	        />
+       
+        <TextView 
+            android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_vertical"
+	        android:layout_marginLeft="8dp"
+	        android:text="下载"
+            />
+       <com.fgc.autocall.ui.component.ButtonTwoState
+	        android:id="@+id/btn_download"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_gravity="right|center_vertical"
+	        android:layout_marginRight="@dimen/title_padding"
+	        android:layout_marginLeft="@dimen/title_padding"
+	        android:background="@drawable/btn_edit"
+	        />
+        
+        
+          
+       
+	        
+        
+      </LinearLayout>
+    
+</LinearLayout> 
+
+</LinearLayout>

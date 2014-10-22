@@ -1,0 +1,24 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/v2_normal_bg"
+     >
+     
+	<include
+		layout="@layout/common_title_bar"
+	/>
+	
+	    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/v2_sub_column_text"
+        android:text="SIM卡信息"
+        android:textSize="@dimen/txt_size_px_24"
+        />
+
+</LinearLayout>

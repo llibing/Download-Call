@@ -1,0 +1,36 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/v2_normal_bg"
+     >
+     
+	<include
+		layout="@layout/common_title_bar"
+	/>
+	
+	    <TextView
+	    android:id="@+id/text_export_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/gray_txt"
+        android:text="@string/export_notice"
+        android:textSize="@dimen/txt_size_px_18"
+        />
+        
+        
+        <Button 
+            android:id="@+id/btn_export"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/selector_btn_export"
+            />
+	    
+</LinearLayout>

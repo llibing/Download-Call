@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="nav_txt_n">#626c7e</color>
+    <color name="nav_txt_h">#ffb238</color> 
+    <color name="bg_default">#090b10</color>
+    <color name="headline_txt">#d2d7e1</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#dbdbdb</color>
+    <color name="active_yellow">#ffb238</color>
+
+	   <color name="v2_normal_bg">#eae9e9</color>
+	   <color name="v2_title_txt">#ffffff</color>
+	   <color name="v2_sub_column_text">#575757</color>
+	   <color name="v2_sub_column_text_f">#3475ca</color>
+	   <color name="v2_sub_column_indicator_bg">#9e9e9e</color>
+	   	   
+	   <color name="v2_left_menu_item_color">#00000000</color>
+	   
+	   <color name="v2_filter_item_txt_color">#25252a</color>
+	   
+	   
+	   <color name="v2_color_light_black">#25252a</color>
+	   <color name="v2_color_light_gray">#8b8b92</color>
+       <color name="v2_color_blue_highlight">#44658a</color>
+       
+       <color name="v2_dmr_list_item_txt_color_h">#486b91</color>
+       <color name="v2_dmr_list_item_txt_color_n">#48484b</color>
+        <color name="v2_left_menu_item_bg_n">#f8f7f6</color>
+        <color name="v2_left_menu_item_bg_f">#e5e6e6</color>
+        
+        <color name="txt_focus">#c2c0c0</color>
+        <color name="nullcolor">#00000000</color>
+        <color name="warning_bg">#eaa23c</color>
+        
+        <color name="gray_txt">#8b8b92</color>
+        <color name="normal_txt">#25252a</color>
+        <color name="highlight_txt">#44658a</color>
+        
+        <color name="input_text">#67676e</color>
+        <color name="normal_text_color">#4d4d4d</color>
+        
+</resources>

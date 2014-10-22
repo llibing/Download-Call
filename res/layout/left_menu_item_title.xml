@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    
+            <LinearLayout
+             android:id="@+id/layout_group_seperator"
+		     android:layout_width="match_parent"
+		     android:layout_height="wrap_content"
+		     android:orientation="vertical"
+		     android:visibility="gone"
+		     >
+             <LinearLayout
+		     android:layout_width="match_parent"
+		     android:layout_height="wrap_content"
+		     android:background="@drawable/left_menu_group_seperator"
+		    />
+           <LinearLayout 
+            android:id="@+id/layout_group_seperator"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            >
+           </LinearLayout>
+           
+           <LinearLayout
+		     android:layout_width="match_parent"
+		     android:layout_height="wrap_content"
+		     android:background="@drawable/left_menu_group_seperator"
+		    />
+           
+           </LinearLayout>
+    
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="40dp"
+	    android:gravity="center_vertical"
+	    android:orientation="horizontal"
+	    android:background="@drawable/selector_left_menu_item_bg"
+	    >
+<!--     		android:paddingTop="15dp"
+			android:paddingBottom="15dp" -->
+			
+		<ImageView
+		     android:id="@+id/image_icon"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:paddingLeft="18dp"
+		     android:paddingRight="8dp"
+		     android:layout_gravity="center_vertical"
+		     android:clickable="false"
+		    />
+		
+		<TextView
+		    android:id="@+id/text_title"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:textColor="#4d4d4d"
+			android:paddingLeft="8dp"
+			android:layout_gravity="center_vertical"
+			android:textSize="@dimen/txt_size_px_20"
+			android:text="菜单项标题"    
+			android:clickable="false"
+		/>
+		
+	</LinearLayout>
+
+		    <LinearLayout 
+		    android:id="@+id/layout_end_seperator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/v2_left_menu_item_bg_n"
+            android:visibility="visible"
+            >
+	        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/left_menu_list_seperator"
+            />
+	        </LinearLayout>
+	        <LinearLayout
+	         android:id="@+id/layout_last_seperator"
+		     android:layout_width="match_parent"
+		     android:layout_height="wrap_content"
+		     android:background="@drawable/left_menu_group_seperator"
+		     android:visibility="gone"
+		    />
+</LinearLayout>

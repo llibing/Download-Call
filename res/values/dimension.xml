@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_txt_size">18sp</dimen>
+    <dimen name="left_menu_title_txt_size">16sp</dimen>
+    <dimen name="title_padding">10dp</dimen>
+    
+    <dimen name="txt_size_px_26">18sp</dimen>
+    <dimen name="txt_size_px_25">17sp</dimen>
+    <dimen name="txt_size_px_24">16sp</dimen>
+    <dimen name="txt_size_px_22">15sp</dimen>
+	<dimen name="txt_size_px_20">14sp</dimen>
+    <dimen name="txt_size_px_18">12sp</dimen>
+    <dimen name="txt_size_px_16">10sp</dimen>
+     <dimen name="txt_size_px_14">8sp</dimen>
+     
+     <dimen name="padding_px_10">6dp</dimen>
+    <dimen name="padding_px_14">10dp</dimen>
+    <dimen name="padding_px_18">12dp</dimen>
+    <dimen name="padding_px_20">14dp</dimen>
+    <dimen name="padding_px_24">16dp</dimen>
+    <dimen name="padding_px_26">18dp</dimen>
+    
+    <dimen name="common_title_padding_left">10dp</dimen>
+    <dimen name="common_title_padding_top">6dp</dimen>
+    <dimen name="common_title_padding_bottom">10dp</dimen>
+    <dimen name="area_padding_top">6dp</dimen>
+    <dimen name="area_margin_left">8dp</dimen>
+    
+</resources>
